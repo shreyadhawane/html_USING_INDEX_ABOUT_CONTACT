@@ -1,0 +1,37 @@
+body{
+    font-family:fantasy;
+    background-image:Url("2151645896.jpg");
+    background-size: cover;
+    text-align: Center;
+    padding-top: 100px;}
+
+.Container{
+    background-color:rgba(44, 11, 179, 0.604);
+    border: radius 100px;
+    box-shadow:0 4px 8px rgba(230, 216, 216, 0.546);
+    display:inline-block;
+    padding:40px;
+}  
+
+a{display:inline-block;
+margin-top:20px;
+text-decoration:none;
+color:#1c1b1b;
+font-weight:bold;
+}
+input,textarea,button{
+    padding:10px;
+    margin-top:10px;
+    width:80%;
+    border:1px solid#ccc;
+    border-radius:6px;
+}
+button{
+    background-color:#2287e5;
+    color:rgb(17, 17, 18);
+    border:none;
+    cursor:pointer;}
+button:hover{
+    background-color:#f9f5f5;
+}
+
