@@ -1,6 +1,8 @@
 from flask import Flask,render_template,request,redirect
 import firebase_admin
 from firebase_admin import credentials,db
+import gunicorn
+
 
 app=Flask(__name__)
 cred=credentials.Certificate("D:/python/python-83301-firebase-adminsdk-fbsvc-1ceb882598.json")
